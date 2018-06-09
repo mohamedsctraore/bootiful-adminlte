@@ -28,14 +28,15 @@ class HelloController {
 
     @GetMapping(value = {"/**/*.html"})
     public String route(HttpServletRequest request) {
-        logger.debug("DynamicController.route: request.getRequestURI() = {}", request.getRequestURI());
+//        logger.debug("DynamicController.route: request.getRequestURI() = {}", request.getRequestURI());
         String path = request.getRequestURI();
-        if (path.startsWith("/")) {
-            System.out.println("path.substring(1, path.length() - 5) = " + path.substring(1, path.length() - 5));
-            return path.substring(1, path.length() - 5); // remove ".html"
-        } else {
-            System.out.println("path.substring(0, path.length() - 5) = " + path.substring(0, path.length() - 5));
-            return path.substring(0, path.length() - 5);
-        }
+//        if (path.startsWith("/")) {
+//            System.out.println("path.substring(1, path.length() - 5) = " + path.substring(1, path.length() - 5));
+//            return path.substring(1, path.length() - 5); // remove ".html"
+        return path;
+//        } else {
+//            System.out.println("path.substring(0, path.length() - 5) = " + path.substring(0, path.length() - 5));
+//            return path.substring(0, path.length() - 5);
+//        }
     }
 }

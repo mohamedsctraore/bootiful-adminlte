@@ -24,4 +24,4 @@
 /nbdist/
 /.nb-gradle/
 
-bower_component
+#bower_component
