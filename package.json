@@ -1,0 +1,14 @@
+{
+  "name": "BootifulAdminLTE",
+  "version": "1.0.0",
+  "description": "Bootiful-AdminLTE application",
+  "dependencies": {
+    "bower": "~1.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingw/bootiful-adminlte.git"
+  },
+  "author": "yinguowei",
+  "license": "MIT"
+}
