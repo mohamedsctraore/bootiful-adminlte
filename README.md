@@ -10,7 +10,7 @@ Choose one you familiar with.
 
 More detailed instruction: [Blog](https://yingw.github.io/2018/02/22/adminlte-springboot.html)
 
-## static
+## 1. static
 
 **Clone project**
 ```
@@ -34,7 +34,7 @@ cp v2.4.3/bower_components bootiful-adminlte/src/main/resources/static/
 mvn spring-boot:run
 ```
 
-## webjars
+## 2. webjars
 
 Or we can use webjars to avoid the download, **checkout branch**
 ```
@@ -48,7 +48,7 @@ mvn spring-boot:run
 
 > No need bower_components folder.
 
-## bower
+## 3. bower
 
 **Checkout branch**
 ```
